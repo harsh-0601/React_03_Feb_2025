@@ -1,0 +1,81 @@
+.transactions-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.subtitle {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 15px;
+}
+
+.transactions-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transactions-table th, .transactions-table td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.card-type {
+  font-size: 12px;
+  color: gray;
+}
+
+.transaction-time {
+  font-size: 12px;
+  color: gray;
+}
+
+.status-verified {
+  color: green;
+  font-weight: bold;
+}
+
+.status-rejected {
+  color: red;
+  font-weight: bold;
+}
+
+.status-pending {
+  color: gray;
+  font-weight: bold;
+}
+
+.amount {
+  font-weight: bold;
+}
+
+.card-icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.card-icon.mastercard {
+  background-image: url('/mastercard.png');
+}
+
+.card-icon.visa {
+  background-image: url('/visa.png');
+}
+
+.card-icon.amex {
+  background-image: url('/amex.png');
+}
